@@ -164,15 +164,15 @@ first div in the grid  and place it in the grid. */
 }
 
 .method{
-  grid-row: 3 / span 1;
+  grid-row-start: 3;
 }
 
 .clients{
-  grid-row: 4 / span 1;
+  grid-row-start: 4;
 }
 
 .contact{
-  grid-row: 5 / span 1;
+  grid-row-start: 5;
 }
 
 
@@ -183,19 +183,19 @@ first div in the grid  and place it in the grid. */
 }
 
 .about-image{
-  grid-row: 2 / span 1;
+  grid-row-start: 2;
 }
 
 .method-image{
-  grid-row: 3 / span 1;
+  grid-row-start: 3;
 }
 
 .clients-image{
-  grid-row: 4 / span 1;
+  grid-row-start: 4;
 }
 
 .contact-image{
-  grid-row: 5 / span 1;
+  grid-row-start: 5;
 }
 
 
