@@ -107,7 +107,7 @@ footer{
 
 /* Step 1: Write selector/rule property to add an underline when
 links in the navigation are in the hover or focus state.*/
-nav a.hover{
+nav a:hover, nav a:focus{
   text-decoration: underline;
 }
 
@@ -142,10 +142,7 @@ nav a.hover{
 /* Step 5: Write selector/rule property to add the background image to the 
 first div in the grid  and place it in the grid. */
 .container > div:first-child{
-  
-/*ASK ABOUT THE SPAN 5 */
-
-  grid-column: 1 / span 5;
+  grid-column: 1 / -1;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -163,7 +160,7 @@ first div in the grid  and place it in the grid. */
 }
 
 .about{
-  grid-row: 2 / span 1;
+  grid-row-start: 2;
 }
 
 .method{
